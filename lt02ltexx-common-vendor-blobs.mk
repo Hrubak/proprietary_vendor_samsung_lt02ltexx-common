@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
