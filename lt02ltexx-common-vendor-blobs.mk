@@ -22,29 +22,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/lt02ltexx-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/lt02ltexx-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/lt02ltexx-common/proprietary/bin/orientationd:system/bin/orientationd \
+    vendor/samsung/lt02ltexx-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/lt02ltexx-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/lt02ltexx-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/lt02ltexx-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/lt02ltexx-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/lt02ltexx-common/proprietary/bin/thermald:system/bin/thermald \
-    vendor/samsung/lt02ltexx-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/lt02ltexx-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/lt02ltexx-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/lt02ltexx-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
@@ -65,24 +62,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -102,8 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
@@ -114,20 +104,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-    vendor/samsung/lt02ltexx-common/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/lt02ltexx-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
