@@ -66,7 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/lt02ltexx-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/samsung/lt02ltexx-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
